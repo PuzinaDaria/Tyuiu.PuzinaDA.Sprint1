@@ -7,13 +7,14 @@ namespace Tyuiu.PuzinaDA.Sprint1.Task0.V16
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #1 | Выполнила: Пузина Д. А. | ИИПБ-24-1";
+
+            Console.Title = "Спринт #1 | Выполнил: Пузина Д. А. | ИИПБ-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #16                                                             *");
-            Console.WriteLine("* Выполнила: Пузина Дарья Алексеевна | ИИПБ-24-1                          *");
+            Console.WriteLine("* Выполнил: Пузина Дарья Алексеевна | ИИПБ-24-1                           *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу на С#, которая вычислаяет выражение 6/2/3+1-6/2*3    *");
