@@ -2,7 +2,7 @@
 namespace Tyuiu.PuzinaDA.Sprint1.Task0.V16.Lib
 {
 
-    public class DataService : ISprint1Task0V0
+    public class DataService : ISprint1Task0V16
     {
         public double Calculate()
         {
