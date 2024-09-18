@@ -24,11 +24,13 @@ namespace Tyuiu.PuzinaDA.Sprint1.Task2.V13
             Console.WriteLine("***************************************************************************");
 
             Console.Write("Введите расстояние в милях: ");
-            int value = ds.Calculate(Convert.ToInt32(Console.ReadLine()));
+            int value = Convert.ToInt32(Console.ReadLine());
+            double res = ds.Calculate(value);
+            res = res / 1000;
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Расстояние в километрах: " + value);
+            Console.WriteLine("Расстояние в километрах: " + res);
         }
     }
 }

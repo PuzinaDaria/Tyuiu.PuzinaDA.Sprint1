@@ -9,8 +9,9 @@ namespace Tyuiu.PuzinaDA.Sprint1.Task2.V13.Test
         {
             DataService ds = new DataService();
             int value = 1;
-            int res = ds.Calculate(value);
-            Assert.AreEqual(1609, res);
+            double res = ds.Calculate(value);
+            res = res / 1000;
+            Assert.AreEqual(1.609, res);
 
         }
     }
