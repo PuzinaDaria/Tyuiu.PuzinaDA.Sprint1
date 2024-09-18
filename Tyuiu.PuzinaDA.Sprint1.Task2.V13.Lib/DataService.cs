@@ -5,7 +5,7 @@ namespace Tyuiu.PuzinaDA.Sprint1.Task2.V13.Lib
     {
         public int Calculate(int value)
         {
-            return value * 1609;
+            return value * 1609344;
         }
     }
 }

@@ -26,7 +26,8 @@ namespace Tyuiu.PuzinaDA.Sprint1.Task2.V13
             Console.Write("Введите расстояние в милях: ");
             int value = Convert.ToInt32(Console.ReadLine());
             double res = ds.Calculate(value);
-            res = res / 1000;
+            res = res / 1000000;
+            res = Math.Round(res, 3);
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
