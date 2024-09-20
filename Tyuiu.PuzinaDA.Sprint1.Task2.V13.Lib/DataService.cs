@@ -3,9 +3,9 @@ namespace Tyuiu.PuzinaDA.Sprint1.Task2.V13.Lib
 {
     public class DataService : ISprint1Task2V13
     {
-        public int Calculate(int value)
+        public double ConvertMilesToKm(int value)
         {
-            return value * 1609344;
+            return Math.Round((value * 1.609344), 3);
         }
     }
 }
