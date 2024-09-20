@@ -5,7 +5,7 @@ namespace Tyuiu.PuzinaDA.Sprint1.Task3.V5.Lib
     {
         public double DistanceLength(double mapScale, double distanceBetweenPoints)
         {
-            
+            return Math.Round((distanceBetweenPoints * mapScale), 3);
         }
     }
 }

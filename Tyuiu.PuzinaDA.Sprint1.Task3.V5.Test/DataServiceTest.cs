@@ -8,9 +8,10 @@ namespace Tyuiu.PuzinaDA.Sprint1.Task3.V5.Test
         public void DistanceTest()
         {
             DataService ds = new DataService();
-            var res = ds.Calculate();
+            double distanceBetweenPoints = 3.5;
+            double mapScale = 120;
+            var res = ds.DistanceLength(mapScale, distanceBetweenPoints);
             Assert.AreEqual(420, res);
-
         }
     }
 }
